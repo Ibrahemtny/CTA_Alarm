@@ -1,7 +1,7 @@
 # CTA_Alarm
 
 **Your Personal CTA Transit Tracker**  
-CTA_Alarm is your go-to app for real-time transit notifications, keeping you updated on bus and train arrivals in Chicago. Whether you're commuting to work or running errands, this app ensures you’re always on time by notifying you about upcoming transit arrivals right when you need it.
+CTA Alarm is your go-to app for real-time transit notifications, keeping you updated on bus and train arrivals in Chicago. Whether you're commuting to work or running errands, this app ensures you’re always on time by notifying you about upcoming transit arrivals right when you need it.
 
 ---
 
