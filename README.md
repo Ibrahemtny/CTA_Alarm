@@ -72,10 +72,7 @@ To access real-time data, you'll need to obtain an API key from the [CTA Develop
 Choose a station (e.g., "Station A") and a transit line (e.g., "Red Line") from the dropdown menus.
 
 ### Step 2: Set Your Notification Time
-Select how far in advance you want to be notified about the next arrival. Available options are:
-- 5 minutes
-- 10 minutes
-- 15 minutes
+Select how far in advance you want to be notified about the next arrival. Available option is a self adjusted timer based countdown on distance of train/bus to location on when you want to be notified!
 
 ### Step 3: Notifications
 Once the app receives arrival data (or simulated data for now), it will send you a notification. The app can also use text-to-speech to read the notification aloud!
