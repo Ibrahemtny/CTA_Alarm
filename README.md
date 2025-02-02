@@ -42,50 +42,65 @@ git clone https://github.com/Ibrahemtny/CTA_Alarm.git
 
 
 
-## Open in Qt Creator:
+# CTA_Alarm
+
+A Qt-based app for receiving CTA transit arrival notifications with support for voice notifications and offline mode.
+
+## Getting Started
+
+### Open in Qt Creator
 1. Launch Qt Creator and click **Open Project**.
 2. Select the `CTA_Alarm.pro` file from the repo directory.
 
-## Get Your CTA API Key:
-For real-time data, you'll need to get an API key from the [CTA Developer Portal](https://developer.transitchicago.com/).
-1. Replace `"YOUR_API_KEY"` in the app code with your personal API key (found in `notificationapp.cpp`).
+### Get Your CTA API Key
+To access real-time data, you'll need to obtain an API key from the [CTA Developer Portal](https://dev.careers.cta.org/).
+1. Register for an account on the CTA Developer Portal.
+2. Get your API key.
+3. Replace `"YOUR_API_KEY"` in the code with your personal API key (found in `notificationapp.cpp`).
 
-## Build & Run:
+### Build & Run
 1. In Qt Creator, click **Build** to compile the app.
-2. Once compiled, click **Run** to launch the app.
+2. After the build process finishes, click **Run** to launch the app.
 
-**Note**: As of now, the API is not yet integrated, so the app will simulate arrival data using hardcoded values. When the API is live, the app will automatically pull live data.
+**Note:** Currently, the app is not yet integrated with the CTA API, so it will simulate arrival data using hardcoded values. Once the API is live, the app will automatically fetch live data.
+
+---
 
 ## How Does the App Work?
 
-### Step 1: Select your station and line
-Choose the station (e.g., “Station A”) and the transit line (e.g., “Red Line”) from the dropdowns.
+### Step 1: Select Your Station and Line
+Choose a station (e.g., "Station A") and a transit line (e.g., "Red Line") from the dropdown menus.
 
-### Step 2: Set your notification time
-Decide how far in advance you want to be notified. Options include 5, 10, or 15 minutes before the next arrival.
+### Step 2: Set Your Notification Time
+Select how far in advance you want to be notified about the next arrival. Available options are:
+- 5 minutes
+- 10 minutes
+- 15 minutes
 
 ### Step 3: Notifications
-Once the app receives the arrival data (or simulated data for now), it will send you a notification. You can even have it read aloud using text-to-speech!
+Once the app receives arrival data (or simulated data for now), it will send you a notification. The app can also use text-to-speech to read the notification aloud!
+
+---
 
 ## Offline Mode
-If you're not connected to the internet, don’t worry! The app can still show data from previous sessions through local caching.
+
+If you're not connected to the internet, the app can still display data from previous sessions through local caching. This allows you to track stations and routes even when offline.
+
+---
 
 ## Voice Notifications & Themes
 
-### Voice Notifications:
-Use Qt’s `QTextToSpeech` module to make the app speak your notifications. It’s perfect for hands-free operation.
+### Voice Notifications
+The app uses Qt's `QTextToSpeech` module to read your notifications aloud. This is perfect for hands-free operation!
 
-### Light/Dark Mode:
-You can switch between light mode (default) and dark mode based on your preference. Toggle between the two with a button in the settings.
+### Light/Dark Mode
+You can toggle between light mode (default) and dark mode, depending on your preference. Switch between the two with a button in the settings.
+
+---
 
 ## Offline Data Caching
-Even if you're offline, CTA_Alarm will still function! It stores your recent transit data in a local SQLite database, so you can still track stations and routes, even when your connection is down.
+Even without an internet connection, CTA_Alarm will function! It caches recent transit data locally in an SQLite database, allowing you to continue tracking stations and routes, even when offline.
 
+---
 
-
-Ibrahem Tamimi - Developer
-
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
