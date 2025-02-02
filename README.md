@@ -36,7 +36,7 @@ Currently, this app is simulating the CTA data with hardcoded values, so once th
 
  **Clone the repo**:
 
-```bash
+
 git clone https://github.com/Ibrahemtny/CTA_Alarm.git
 
 
