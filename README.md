@@ -38,9 +38,9 @@ Currently, this app is simulating the CTA data with hardcoded values, so once th
 
 ```bash
 git clone https://github.com/Ibrahemtny/CTA_Alarm.git
-cd CTA_Alarm
 
-# CTA_Alarm
+
+
 
 ## Open in Qt Creator:
 1. Launch Qt Creator and click **Open Project**.
