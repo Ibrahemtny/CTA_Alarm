@@ -1,4 +1,4 @@
-# CTA_Alarm
+# CTA Alarm
 
 **Your Personal CTA Transit Tracker**  
 CTA Alarm is your go-to app for real-time transit notifications, keeping you updated on bus and train arrivals in Chicago. Whether you're commuting to work or running errands, this app ensures you’re always on time by notifying you about upcoming transit arrivals right when you need it.
@@ -42,7 +42,7 @@ git clone https://github.com/Ibrahemtny/CTA_Alarm.git
 
 
 
-# CTA_Alarm
+# CTA Alarm
 
 A Qt-based app for receiving CTA transit arrival notifications with support for voice notifications and offline mode.
 
