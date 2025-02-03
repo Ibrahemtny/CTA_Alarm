@@ -96,6 +96,8 @@ You can toggle between light mode (default) and dark mode, depending on your pre
 
 ## Offline Data Caching
 Even without an internet connection, CTA Alarm will function! It caches recent transit data locally in an SQLite database, allowing you to continue tracking stations and routes, even when offline.
+
+
 Made with Effort in Chicago! 🏙️ Gracias Y Adios!
 
 ---
